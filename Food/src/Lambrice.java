@@ -1,14 +1,13 @@
 
 public class Lambrice extends Food {
 
-	public Lambrice(String name, String rice, boolean vegetable, int price, String meat) {
-		super(name, rice, vegetable, price, meat);
-		this.cookVegetable = true;
-
-		this.price = 8;
-		this.rice = "rice";
-		this.name = "Lamb Rice";
-		this.meat = "goat";
+	public Lambrice(String name, String rice, boolean cookVegetable, int price, String meat) {
+		super(name, rice, cookVegetable, price, meat);
+		this.name = name;
+		this.meat = meat;
+		this.price = price;
+		this.cookVegetable = cookVegetable;
+		this.rice = rice;
 
 	}
 

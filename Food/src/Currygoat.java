@@ -1,14 +1,13 @@
 
 public class Currygoat extends Food {
 
-	public Currygoat(String name, String rice, boolean vegetable, int price, String meat) {
-		super(name, rice, vegetable, price, meat);
-		this.cookVegetable = true;
-
-		this.price = 10;
-		this.rice = "rice";
-		this.name = "Curry Goat";
-		this.meat = "goat";
+	public Currygoat(String name, String rice, boolean cookVegetable, int price, String meat) {
+		super(name, rice, cookVegetable, price, meat);
+		this.name = name;
+		this.meat = meat;
+		this.price = price;
+		this.cookVegetable = cookVegetable;
+		this.rice = rice;
 
 	}
 

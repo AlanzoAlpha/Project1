@@ -62,7 +62,7 @@ public class Food {
 	}
 
 	public void ingredients() {
-		System.out.println(
-				"This meal has " + this.rice + ", " + this.meat + ", " + "and cookVegetable = " + this.cookVegetable);
+		System.out.println("This meal has " + this.rice + "(, meat =  " + this.meat + ", " + "and cookVegetable = "
+				+ this.cookVegetable + ")");
 	}
 }
